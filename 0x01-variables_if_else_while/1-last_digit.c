@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  * @void: Null value
@@ -8,6 +9,7 @@
  * Description: Check the last digit of the number
  * Return: Zero value to succesful
  */
+
 int main(void)
 {
 	int n;
