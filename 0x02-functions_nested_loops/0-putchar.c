@@ -1,17 +1,18 @@
-#include <limits.h>
+#ifndef _PUTCHAR_C_
+#define _PUTCHAR_C_
+
 #include "main.h"
 
 /**
-* main - check the code for Holberton School students.
-*
-* Return: Always 0.
-*/
-int main(void)
+ * _putchar - prints a character to stdout
+ * @c: the character to print
+ *
+ * Return: 1 on success, -1 on error.
+ */
+int _putchar(char c)
 {
-int r;
-
-r = print_last_digit(0); /* The returned value form your funtion
-_putchar('0' + r); /* this will print the returned value
-_putchar('\n');
-return (0);
+  return (write(1, &c, 1));
 }
+
+#endif /* _PUTCHAR_C_ */
+
