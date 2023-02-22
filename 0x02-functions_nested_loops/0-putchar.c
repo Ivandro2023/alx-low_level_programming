@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * The main function is the entry point of the program.
+ * It prints the characters _putchar\n to the console.
+ *
+ */
+
 int main(void)
 
 {
