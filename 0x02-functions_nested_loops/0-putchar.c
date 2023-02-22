@@ -1,23 +1,17 @@
-#include <stdio.h>
+#include <limits.h>
 #include "main.h"
 
 /**
- * The main function is the entry point of the program.
- * It prints the characters _putchar\n to the console.
- *
- */
-
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
+*/
 int main(void)
-
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+int r;
+
+r = print_last_digit(0); /* The returned value form your funtion
+_putchar('0' + r); /* this will print the returned value
+_putchar('\n');
 return (0);
 }
